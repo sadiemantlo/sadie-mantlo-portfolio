@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sadie-mantlo-portfolio/static/css/main.818d8d28.css",
+    "main.js": "/sadie-mantlo-portfolio/static/js/main.0e68bb92.js",
+    "static/media/resume.jpg": "/sadie-mantlo-portfolio/static/media/resume.00538444fbaadd23cd85.jpg",
+    "index.html": "/sadie-mantlo-portfolio/index.html",
+    "main.818d8d28.css.map": "/sadie-mantlo-portfolio/static/css/main.818d8d28.css.map",
+    "main.0e68bb92.js.map": "/sadie-mantlo-portfolio/static/js/main.0e68bb92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.818d8d28.css",
+    "static/js/main.0e68bb92.js"
+  ]
+}
