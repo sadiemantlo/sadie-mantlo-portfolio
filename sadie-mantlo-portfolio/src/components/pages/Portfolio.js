@@ -6,11 +6,11 @@ const styles = {
     gridTemplateColumns: "repeat(3, 1fr)",
     gridGap: "10px",
     gridAutoRows: "minmax(100px, auto)",
+    marginBottom: "110px",
   },
   card: {
     width: "20rem",
     marginTop: "20px",
-    backgroundColor: "yellow",
   },
   linkImg: {
     width: "45px",
