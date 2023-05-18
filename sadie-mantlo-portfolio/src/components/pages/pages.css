@@ -1,3 +1,4 @@
+/* navtabs styles */
 .header {
     color: black;
     padding: 20px;
@@ -43,4 +44,23 @@
 
 .footer-img {
     height: 50px;
+}
+
+/* resume styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 40rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.img {
+    width: 40rem;
+    display: inline;
 }
