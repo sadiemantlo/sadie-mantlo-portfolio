@@ -3,5 +3,11 @@
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
     "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start"
   }
 }

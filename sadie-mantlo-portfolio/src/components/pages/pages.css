@@ -1,3 +1,4 @@
+/* navtabs styles */
 .header {
     color: black;
     padding: 20px;
@@ -43,4 +44,59 @@
 
 .footer-img {
     height: 50px;
+}
+
+/* resume styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 40rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.img {
+    width: 40rem;
+    display: inline;
+}
+
+/* About css */
+.sadie {
+    width: 20rem;
+    display: inline;
+}
+
+/* contact css */
+.divMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .div {
+    margin: 10px;
+}
+
+/* portfolio css */
+.inline {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 110px;
+}
+
+.portfolioCard {
+    width: 20rem;
+    margin-top: 20px;
+}
+
+.portfolioHeader {
+    text-align: center;
+    font-size: 25px;
 }
