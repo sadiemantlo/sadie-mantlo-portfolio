@@ -40,29 +40,15 @@ export default function Contact() {
     }
   };
 
-  const styles = {
-    divMain: {
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-    },
-    form:{
-      margin: '100px',
-    },
-    div: {
-      margin: "10px",
-    }
-  };
-
   return (
-    <div style={styles.divMain}>
-    <form onSubmit={handleSubmit} style={styles.form}>
-      <div style={styles.div}>
+    <div className='divMain'>
+    <form onSubmit={handleSubmit} className='form'>
+      <div className='div'>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" value={name} onChange={handleNameChange} />
         {nameError && <p className="error-message">Please enter a name</p>}
       </div>
-      <div style={styles.div}>
+      <div className='div'>
         <label htmlFor="email">Email:</label>
         <input
           type="email"
@@ -74,7 +60,7 @@ export default function Contact() {
           <p className="error-message">Please enter a valid email</p>
         )}
       </div>
-      <div style={styles.div}>
+      <div className='div'>
         <label htmlFor="message">Message:</label>
         <textarea id="message" value={message} onChange={handleMessageChange} />
         {messageError && (

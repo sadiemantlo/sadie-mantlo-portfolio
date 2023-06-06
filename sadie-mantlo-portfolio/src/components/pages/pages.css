@@ -64,3 +64,39 @@
     width: 40rem;
     display: inline;
 }
+
+/* About css */
+.sadie {
+    width: 20rem;
+    display: inline;
+}
+
+/* contact css */
+.divMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .div {
+    margin: 10px;
+}
+
+/* portfolio css */
+.inline {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 110px;
+}
+
+.portfolioCard {
+    width: 20rem;
+    margin-top: 20px;
+}
+
+.portfolioHeader {
+    text-align: center;
+    font-size: 25px;
+}
